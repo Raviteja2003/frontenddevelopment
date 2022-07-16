@@ -1,0 +1,38 @@
+body{
+    border:2px solid black;
+    padding: 25px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.bold{
+    font-size: large;
+    font-weight:bold;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.gap{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.heading{
+    background-color: rgb(175, 170, 170);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+.content{
+    font-family:serif ;
+    font-size: 20px;
+}
+#table{
+    border:2px solid black;
+    border-collapse:collapse;
+    padding:15px;
+}
+.tablenone{
+    border:none;
+}
