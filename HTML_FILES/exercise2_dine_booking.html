@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <center>
+            <h3>Dine Booking</h3>
+
+            <table>
+                
+                <tr>
+                    <td>Visitors Name:</td>
+                    <td><input type="text" autofocus max="20" required/></td>
+                </tr>
+                <tr>
+                    <td>Number of visitors:</td>
+                    <td><input type="number" max="99" min="1" required/></td>
+                </tr>
+                <tr>
+                    <td>Contact No:</td>
+                    <td><input type="tel" pattern="\d{10}" required/></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" required/></td>
+                </tr>
+                <tr>
+                    <td>Type of Food:</td>
+                    <td><input type="checkbox" value="south Indian" name="menu1" checked/>
+                    <label for="menu1">South Indian</label>
+                    <input type="checkbox" value="North Indian" name="menu1"/>
+                    <label for="menu1">North Indian</label>
+                    <input type="checkbox" value="Chinese" name="menu1"/>
+                    <label for="menu1">Chinese</label>
+                    <input type="checkbox" value="Western" name="menu1"/>
+                    <label for="menu1">Western</label></td>
+                </tr>
+                <tr>
+                    <td>Room Status:</td>
+                    <td><input type="radio" value="AC" name="id1" checked/>
+                    <label for="id1">AC</label>
+                    <input type="radio" value="NON-AC" name="id1"/>
+                    <label for="id1">NON-AC</label></td>
+                </tr>
+                <tr>
+                <td>Venue Prefernce:</td>
+                <td><select required>
+                    <option value="">--SELECT--</option>
+                    <option value="Ariena">Ariena</option>
+                    <option value="=Fiesta">Fiesta</option>
+                    <option value="Mythri">Mythri</option>
+                    <option value="Visita">Vista</option>
+                    <option value="Oasia">Oasia</option>
+                    <option value="Magna">Magna</option>
+                    <option disabled>Amoeba </option>
+                </select></td>
+                </tr>
+                <tr>
+                <td><input type="submit" value="Book"/>&nbsp</td>
+                <td><input type="reset" value="Reset"/></td>  
+                </tr> 
+            </table>  
+        </center>       
+    </body>
+</html>

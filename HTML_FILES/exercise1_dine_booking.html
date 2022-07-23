@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <center>
+            <h3>Dine Booking</h3>
+            <label>Visitors Name:</label>
+            <input type="text" autofocus max="20" required/>
+            <br><br>
+            <label>Number of visitors:</label>
+            <input type="number" max="99" min="1" required/>
+            <br><br>
+            <label>Contact No:</label>
+            <input type="tel" pattern="\d{10}" required/>
+            <br><br>
+            <label>E-mail:</label>
+            <input type="email" required/>
+            <br><br>
+            <label>Type of Food:</label>
+            <input type="checkbox" value="south Indian" name="menu1" checked/>
+            <label for="menu1">South Indian</label>
+            <input type="checkbox" value="North Indian" name="menu1"/>
+            <label for="menu1">North Indian</label>
+            <input type="checkbox" value="Chinese" name="menu1"/>
+            <label for="menu1">Chinese</label>
+            <input type="checkbox" value="Western" name="menu1"/>
+            <label for="menu1">Western</label>
+            <br><br>
+            <label>Room Status:</label>
+            <input type="radio" value="AC" name="id1" checked/>
+            <label for="id1">AC</label>
+            <input type="radio" value="NON-AC" name="id1"/>
+            <label for="id1">NON-AC</label>
+            <br><br>
+            <label>Venue Prefernce:</label>
+            <select required>
+                <option value="">--SELECT--</option>
+                <option value="Ariena">Ariena</option>
+                <option value="=Fiesta">Fiesta</option>
+                <option value="Mythri">Mythri</option>
+                <option value="Visita">Vista</option>
+                <option value="Oasia">Oasia</option>
+                <option value="Magna">Magna</option>
+                <option disabled>Amoeba </option>
+            </select>
+            <br><br>
+            <input type="submit" value="Book"/>&nbsp
+            <input type="reset" value="Reset"/>            
+        </center>
+    </body>
+</html>
