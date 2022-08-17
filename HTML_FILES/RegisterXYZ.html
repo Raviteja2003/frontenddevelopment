@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+  <h3 align="center"><strong>REGISTRATION FORM</strong></h3>
+  <center>
+    <label>First Name:<span style="color: red;">*</span></label>
+    <input type="text" required   maxlength="10"/>
+    <br><br>
+    <label>Last Name:<span style="color: red;">*</span></label>
+    <input type="text" required   maxlength="10"/>
+    <br><br>
+    <label>Date of birth:<span style="color: red;">*</span></label>
+    <input type="date" required/>
+    <br><br>
+    <label>Gender:<span style="color: red;" required>*</span></label>
+    <input type="radio" value="Male" required name="gender"/>
+    <label>Male</label>
+    <input type="radio" value="Female"  required name="gender"/>
+    <label>Female</label>
+    <input type="radio" value="Other" required name="gender"/>
+    <label>Other</label>
+    <br><br>
+    <label>Degree:<span style="color: red;">*</span></label>
+    <select required>
+        <option value="">--SELECT--</option>
+        <option value="Bachelors">Bachelors</option>
+        <option value="=Doctorate">Doctorate</option>
+        <option value="Masters">Masters</option>
+    </select>
+    <br><br>
+    <label>Specializtion:<span style="color: red;">*</span></label>
+    <textarea required  rows="4" maxlength="80"></textarea>
+    <br><br>
+    <label>current CGPA:<span style="color: red;">*</span></label>
+    <input type="number" required  max="5" step="0.1" />
+    <br><br>
+    <label>Phone Number:<span style="color: red;">*</span></label>
+    <input type="text" pattern="+91[7-9]{2}-[0-9]{3}-[0-9]{5}" max="10"/>
+    <br><br>
+    <label>Address:<span style="color: red;">*</span></label>
+    <textarea rows="4" required maxlength="80"></textarea>
+    <br><br>
+    <input type="button" value="submit" />
+    <input type="button" value="reset" />
+  </center>
+</body>
+</html>

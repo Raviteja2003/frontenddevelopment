@@ -1,0 +1,23 @@
+.inner-div{ 
+    background-color: white; 
+    padding: 30px; 
+    border: 2px solid black; 
+    width: 200px; 
+    border-radius: 10px; 
+    margin: 3px; 
+    
+ } 
+.outer-div{ 
+    background-color: blueviolet; 
+    width: 270px; 
+    border: 3px solid blue; 
+    padding:5px; 
+    
+ } 
+.login-text{ 
+    color: darkblue; 
+    font-weight: bolder; 
+} 
+.text{
+    color: blue;
+}
