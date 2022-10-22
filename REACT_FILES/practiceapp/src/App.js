@@ -3,7 +3,13 @@ import './App.css';
 //import DisplayData from './components/DisplayData';
 //import { DigitalClock } from './components/DigitalClock';
 //import { Parent } from './components/LiftingStateUp/Parent';
-import ParentComponent from './components/ParentComponent';
+//import ParentComponent from './components/ParentComponent';
+//import Hook3 from './components/Hook3';
+//import DigiClock from './DigiClock';
+//import ViewItems from './components/ViewItems';
+//import BlogContextDemo from './components/BlogContextDemo';
+//import DataFetching from './components/DataFetching';
+import Apps from './components/Apps';
 
 /*function App() {
   return (
@@ -33,11 +39,51 @@ import ParentComponent from './components/ParentComponent';
 //   </div>
 //   );
 //  }
-function App() {
+/*function App() {
   return (
-  <div>
+<div>
   <ParentComponent />
   </div>
   );
+ }*/
+ 
+ /*function app(){
+      return(
+        <div>
+          <Hook3/>
+        </div>
+      )
+ }*/
+
+ /*function app(){
+  return(
+    <div>
+      <DigiClock/>
+    </div>
+  )
+ }*/
+
+ /*function app(){
+  return(
+    <div>
+      <ViewItems/>
+    </div>
+  )
+ }*/
+
+ /*function app(){
+  return(
+    <div>
+      <DataFetching/>
+    </div>
+  )
+ }*/
+
+ function app(){
+  return(
+    <div>
+      <Apps/>
+    </div>
+  )
  }
-export default App;
+export default app;
